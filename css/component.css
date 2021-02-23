@@ -1,0 +1,193 @@
+﻿/* General styles for all menus */
+.cbp-spmenu {
+	background: #9EC2E5;
+	position: fixed;
+}
+
+/*Csuszos menu fomenujenek szine es hattere*/
+.cbp-spmenu h3 {
+	color: white;
+	font-size: 1.9em;
+	font-weight:bold;
+	padding: 20px;
+	margin: 0;
+	font-weight: 300;
+	background: #487FB5;
+}
+/*Maintenance gomb stilusa - hogy olyan legyen, mintha link lenne*/
+#showMaint, #showReps, #showDocs {
+	color: white;
+	background:none;
+	border:none;
+	width:100%;
+	cursor:pointer;
+	font-size: 1.1em;
+	border-bottom: 1px solid white;
+	font-weight:bold;
+	text-align:left;
+	padding:1em;
+	font-family:cambria,Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.submenuicon {
+	display:inline-block;
+	margin:1em 0 1em 2em;
+	vertical-align:middle;
+}
+.submenuicon_nextline {
+	display:inline-block;
+	margin-left:2em;
+	margin-bottom:1em;
+	color: white;
+	font-size: 1.1em;
+	font-weight:bold;
+}
+.submenulabel {
+	color: white;
+	font-size: 1.1em;
+	font-weight:bold;
+	padding-left:0.5em;
+	vertical-align:middle;
+}
+.cbp-spmenu a {
+	display: block;
+	color: white;
+	font-size: 1.1em;
+	font-weight: 300;
+}
+.cbp-spmenu a:hover, #showMaint:hover, #showReps:hover, #showDocs:hover {
+	font-weight:bold;
+	background: #6C9DCD;
+	color:#487FB5;
+}
+.cbp-spmenu-vertical a {
+	border-bottom: 1px solid white;
+	font-weight:bold;
+	padding: 1em;
+}
+/*A Maintenance alatti almenuk kinezete*/
+.cbp-submenu {
+	display:none;
+	height:0;
+}
+.cbp-submenu li {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	border-bottom: 1px solid white;
+}
+.downmenu {
+	float:right;
+}
+/*.cbp-submenu li a {
+	display:inline-block;
+	font-weight:bold;
+}
+*/.cbp-submenu li:hover {
+	font-weight:bold;
+	background: #6C9DCD;
+	color:#487FB5;
+	cursor:pointer;
+}
+/*Azert van kikommentelve, mert dinamikusan allitjuk be a magassagot a main.js fajl segitsegevel*/
+/*.cbp-spmenu-vertical {
+	width: 240px;
+	height: 100%;
+	top:80.433px;
+	z-index: 1000;
+}
+*/
+/* Vertical menu that slides from the left or right */
+
+.cbp-spmenu-left {
+	left: -250px;
+}
+
+.cbp-spmenu-right {
+	right: -240px;
+}
+
+.cbp-spmenu-left.cbp-spmenu-open {
+	left: 0px;
+}
+
+.cbp-spmenu-right.cbp-spmenu-open {
+	right: 0px;
+}
+.cbp-submenu.cbp-submenu-open {
+	display:block;
+	height:auto;
+	padding:0;
+	margin:0;
+}
+
+/* Transitions */
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+/* Vertical menu that slides from the left or right */
+
+
+/* Example media queries */
+
+@media screen and (max-width: 55.1875em){
+
+	.cbp-spmenu-horizontal {
+		font-size: 75%;
+		height: 110px;
+	}
+
+	.cbp-spmenu-top {
+		top: -110px;
+	}
+
+	.cbp-spmenu-bottom {
+		bottom: -110px;
+	}
+
+}
+
+@media screen and (max-height: 26.375em){
+
+	.cbp-spmenu-vertical {
+		font-size: 90%;
+		width: 190px;
+	}
+
+	.cbp-spmenu-left,
+	.cbp-spmenu-push-toleft {
+		left: -190px;
+	}
+
+	.cbp-spmenu-right {
+		right: -190px;
+	}
+
+	.cbp-spmenu-push-toright {
+		left: 190px;
+	}
+}
+@media all and (max-width: 1023px){
+
+	.cbp-spmenu-vertical 
+	{
+		font-size: 90%;
+		width: 100%;
+	}
+
+	.cbp-spmenu-left{
+		left: -110%;
+	}
+
+	.cbp-spmenu-right {
+		right: -190px;
+	}
+
+	.cbp-spmenu-push-toright {
+		left: 190px;
+	}
+}
+

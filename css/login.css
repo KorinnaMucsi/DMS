@@ -1,0 +1,145 @@
+﻿/*
+Created by: Mucsi Korinna
+Date of creation: 07.05.2015.
+Description: css file to Login.php
+*/
+.login_body {
+	margin:0;
+	padding:0;
+	background-color:#6C9DCD;
+	text-align:center;
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.login_fieldset{
+	text-align:left;
+	margin:5% 0 0 37%;
+	padding:0;
+	border-style:none;
+}
+.login_logo {
+	margin-top:3%;
+	width:50%;
+}
+.login_text, .login_pwd {
+	display:block;
+	position:relative;
+	clear:both;
+	text-align:left;
+	margin:2% 0 2% 0;
+	width:50%;
+}
+.login_select {
+	display:block;
+	position:relative;
+	clear:both;
+	text-align:left;
+	margin:2% 0 2% 0;
+	width:auto;
+}
+.login_submit {
+	display:block;
+	position:relative;
+	clear:both;
+	font-size:large;
+	margin:2% 0 2% 0;
+	width:50.6%;
+}
+.login_error {
+	color:red;
+}
+#login {
+	margin-top:15%;
+}
+.login_span {
+	display:block;
+	position:relative;
+	clear:both;
+}
+.login_input_div {
+	position:relative;
+	clear:both;
+	text-align:left;
+	width:100%;
+}
+/*Kozepre allitja a div tartalmat, korvonalat ad neki es arnyekolja
+Kicsi meret*/
+@media all and (max-width:1023px)
+{
+	.login_label{
+		margin-top:0;
+		font-size:10pt;
+		text-align:left;
+		font-weight:bold;
+	}
+	/*Kulso keret, feher szegellyel a body-n belul*/
+	.login_containerDivBody {
+		display:inline-block;
+		position:relative;
+		clear:both;
+		width:90%;	
+		background-color:#487FB5;
+		border-left:thin white solid;
+		border-right:thin white solid;
+	}
+	.login_h1 {
+		text-align:center;
+		color:white;
+		font-size:20pt;
+	}	
+	/*Login informacios ablak*/
+	.login_centerDiv {
+		display:compact;
+		width: 90%;
+		height: 40%;
+		margin: auto;
+		margin-top:10%;
+		padding:0 0 8% 0;
+		text-align:center ;
+		background-color:white;
+		box-shadow: 15px 15px 15px #14518B;
+		border-radius:10px;
+	}
+}
+/*Kozepre allitja a div tartalmat, korvonalat ad neki es arnyekolja
+Nagy meret*/
+@media all and (min-width:1024px)  
+{
+	.login_label{
+		margin-top:0;
+		font-size:12pt;
+		text-align:left;
+		font-weight:bold;
+	}
+	/*Kulso keret, feher szegellyel a body-n belul*/
+	.login_containerDivBody {
+		display:inline-block;
+		position:relative;
+		clear:both;
+		width:70%;	
+		background-color:#487FB5;
+		border-left:thin white solid;
+		border-right:thin white solid;
+	}
+	.login_h1 {
+		text-align:center;
+		color:white;
+		font-size:30pt;
+	}
+	/*Login informacios ablak*/
+	.login_centerDiv {
+		display:inline-block;
+		width: 50%;
+		height: 30%;	
+		position: absolute;
+		top:0;
+		bottom: 0;
+		left: 0;
+		right: 0;		
+		margin: auto;
+		padding:0 0 8% 0;
+		text-align:center ;
+		background-color:white;
+		box-shadow: 15px 15px 15px #14518B;
+		border-radius:10px;
+	}
+}

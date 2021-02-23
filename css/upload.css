@@ -1,0 +1,41 @@
+﻿#upload_file, #da {
+	margin-bottom:2%;
+}
+#upload_submit {
+	margin-top:2%;
+}
+.upload_fline, .upload_nline {
+	display:inline-block;
+	position:relative;
+	clear:both;
+	width:100%;
+}
+.err {
+	background-color:#FF6262;
+}
+.not_err {
+	background-color:white;
+}
+@media all and (min-width:1024px)
+{
+	.upload_lbl {
+		display:inline-block;
+		position:relative;
+		clear:left;
+		margin:1% 0 1% 0;
+		font-size:12pt;
+		width:11em;
+	}
+
+@media all and (max-width:1023px)
+{
+	.upload_lbl {
+		display:inline-block;
+		position:relative;
+		clear:left;
+		margin:1% 0 1% 0;
+		font-size:12pt;
+		width:7em;
+	}
+}
+

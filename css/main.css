@@ -1,0 +1,270 @@
+﻿/*
+Created by: Mucsi Korinna
+Date of creation: 11.05.2015.
+Description: css file to Hdr.php
+*/
+html {
+	height:100%;
+	width:100%;
+}
+.main_body {
+	margin:0;
+	padding:0;
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	background-color:#6C9DCD;
+	height:100%;
+	width:100%;
+	text-align:center;
+}
+.main_mainContainerDivMenu {
+    width:100%;
+    height:90%;
+    display: inline-table;
+	background-color:#6C9DCD;
+}
+.main_containerDivMenu {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width:100%;
+}
+.main_mainContainerDiv {
+	display:inline-block;
+	position:relative;
+	clear:both;
+	width:70%;	
+	background-color:#487FB5;
+	border-left:thin white solid;
+	border-right:thin white solid;
+	color:white;
+}
+.main_containerDiv {
+    display:inline-block;
+    text-align:left;
+    width:96%;
+    padding:1% 2% 1% 2%;
+}
+.main_button {
+	margin:5%;
+}
+.main_seprt_lns {
+	display:inline-block;
+	position:relative;
+	clear:both;
+	width:100%;
+}
+.main_success {
+	display:inline-block;
+	position:relative;
+	float:left;
+	clear:both;	
+	background-color:#B7F7CA;
+	color:#009900;
+	border:thin #009900 solid;
+	padding-left:1%;
+	box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+	border-radius:10px;
+	font-size:12pt;
+	width:99%;
+}
+.main_error {
+	display:inline-block;
+	position:relative;
+	float:left;
+	clear:both;	
+	background-color:#FFCCCC;
+	color:#FF5050;
+	border:thin #FF5050 solid;
+	padding-left:1%;
+	box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+	border-radius:10px;
+	font-size:12pt;
+	width:99%;
+}
+.main_l_msg {
+	display:inline-block;
+	position:relative;
+	float:left;
+}
+.main_r_close {
+	padding:.5% .5% 0 0;
+	display:inline-block;
+	position:relative;
+	float:right;
+	cursor:pointer;		
+}
+body.main_wait, body.main_wait *{
+	   cursor: wait !important;   
+}
+.main_titleDiv {
+	display:inline-block;
+	position:relative;
+	text-align:center;
+	width:100%;
+	font-size:2.0em;
+}
+.main_title {
+	display:inline-block;
+	position:relative;
+	clear:left;
+	font-size:1.2em;
+	margin-bottom:1%;
+
+}
+.main_subtitle {
+	display:inline-block;
+	position:relative;
+	clear:left;
+	font-size:12pt;
+	margin-bottom:1%;
+	width:100%;
+}
+.main_titleDiv_sp
+{
+	position:absolute;
+	top:0;
+	right:0;
+	float:right;
+	z-index:1;
+	width:100px;
+	height:100px;
+	
+}	
+.main_dataDiv {
+	display:inline-block;
+	position:relative;
+	text-align:left;
+	width:100%;
+	font-size:0.6em;
+	margin-bottom:1%;
+}	
+#bck_btn {
+	margin-top:10px;
+}
+.showcss { 
+	display:block;
+}
+.hidecss { 
+	visibility:hidden;
+	width:0;
+	height:0;
+}
+.main_radiobtnsl {
+	position:relative;
+	display:inline-block; 
+	clear:left;
+	margin-right:5%;
+}
+.main_radiobtnsr {
+	position:relative;
+	display:inline-block; 
+	clear:right;
+}
+.main_app_text {
+	display:block;
+	position:relative;
+	clear:both;
+}
+.lbl {
+	font-size:12pt;
+	width:7em;
+	display:inline-block;
+	float:left;
+	position:relative;
+	clear:left;
+	margin-bottom:1em;
+}
+.chk {
+	font-size:12pt;
+	display:inline-block;
+	float:left;
+	position:relative;
+	clear:left;
+	margin-bottom:1em;
+}
+.sel {
+	display:inline-block;
+	float:left;
+	position:relative;
+	clear:right;
+	margin-bottom:1em;
+}
+.main_hr {
+	display:inline-block;
+	float:left;
+	position:relative;
+	clear:both;
+	width:100%;
+}
+.btn {
+	display:inline-block;
+	float:left;
+	position:relative;
+	margin-right:1em;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+#ws, #ws_lbl {
+	display:none;
+}
+#main_dataDiv_p {
+	display:none;
+}
+.underline {
+	border-bottom:thin black solid;
+}
+/*Kicsi meret*/
+@media all and (max-width:1023px)
+{
+	.main_mainContainerDiv {
+		width:90%;	
+		background-color:#487FB5;
+	}
+	.main_button {
+		width:102px;
+		height:102px;
+	}
+	.main_success {
+		padding-left:0.5%;
+		box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+		border-radius:10px;
+		font-size:10pt;
+		width:99%;
+	}
+	.main_error {
+		padding-left:0.5%;
+		box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+		border-radius:10px;
+		font-size:10pt;
+		width:99%;
+	}
+	.main_titleDiv {
+		font-size:12pt;
+	}
+	.main_subtitle {
+		font-size:10pt;
+	}
+	.main_titleDiv_sp
+	{
+		display:inline-block;
+		position:relative;
+		clear:both;
+		float:left;
+		width:100%; /*A szelessegnek teljesnek kell lennie, hogy abba a sorba ne csusszon at semmi*/
+		height:50px; /*Kis felbontasban, a kep is kisebb, ezert a magassagat arra kell allitani*/
+	}	
+ 	.main_titleDiv_sp img {
+		width:50px;
+		height:50px;
+	}
+}
+/*Nagy meret*/
+@media all and (min-width:1024px)  
+{
+	.main_titleDiv_sp img {
+		width:100px;
+		height:100px;
+	}
+	.main_hdr_div {
+		font-size:12pt;
+}

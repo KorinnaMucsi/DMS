@@ -1,0 +1,11 @@
+﻿.doc_hst_visible_on_form {
+	visibility:visible;
+}
+.doc_hst_visible_on_rep {
+	height:0;
+	display:none;
+}
+.bck_btn {
+	text-align:right;
+	margin-bottom:1%;
+}

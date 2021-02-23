@@ -1,0 +1,63 @@
+﻿body {
+	font-family:Calibri;
+}
+.main_titleDiv, .hdr_div, #bck_btn, .doc_hst_visible_on_form  {
+	height:0;
+	display:none;
+}
+.doc_hst_visible_on_rep {
+	visibility:visible;
+}
+.main_subtitle {
+	margin:1% 0 1% 0;
+}
+.tblRep thead {
+	display:table-header-group;	
+}
+.tblRep thead th {
+	border:thin black solid;
+	height:30px;
+}
+.tblRep tbody {
+	display:table-row-group;
+}
+.logoPrint{
+	visibility:visible;
+	text-align:center;
+}
+#img_logo {
+	display:inline-block;
+	position:relative;
+	float:none;
+	clear:both;
+}
+.hdrRep {
+	font-size:13pt;
+	color:#204D89;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.tblRep {
+	border-collapse:separate;
+	width:100%;
+	overflow:visible;
+}
+.tblRep td {
+	font-size:9pt;
+}
+.leftPad {
+	padding-left:5px;
+	text-align:left;
+}
+.rigthPad {
+	padding-right:5px;
+	text-align:right;
+}
+.leftrightPad {
+	padding-left:5px;
+	padding-right:5px;
+	text-align:center;
+}
+.params {
+	font-size:small;
+}

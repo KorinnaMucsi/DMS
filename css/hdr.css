@@ -1,0 +1,59 @@
+﻿/*
+Created by: Mucsi Korinna
+Date of creation: 11.05.2015.
+Description: css file to Hdr.php
+*/
+.hdr_div {
+	display:inline-block;
+	position:relative;
+	float:left;
+	clear:both;
+	width:99.4%;
+	padding:.3%;
+	border-bottom:2pt white solid;
+	background-color:#487FB5;
+	color:white;
+	text-align:right;
+	box-shadow: 0 0 20px white;
+}
+.hdr_menu {
+	display:inline-block;
+	position:relative;
+	text-align:left;
+	float:left;
+	clear:left;
+	width:auto;
+	width:50%;
+}
+.hdr_userinfo {
+	display:inline-block;
+	position:relative;
+	text-align:right;
+	float:right;
+	clear:right;
+	width:50%;
+}
+#sign_out:link {
+	color:#0000EE;
+    text-decoration: underline;
+    cursor:pointer;
+}
+#sign_out:visited {
+	color:#551A8B;
+    text-decoration: underline;
+    cursor:pointer;
+}
+/*Kicsi meret*/
+@media all and (max-width:1023px)
+{
+	.hdr_div {
+		font-size:10pt;
+	}
+}
+/*Nagy meret*/
+@media all and (min-width:1024px)  
+{
+	.hdr_div {
+		font-size:12pt;
+	}
+}

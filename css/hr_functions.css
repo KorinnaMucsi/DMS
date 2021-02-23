@@ -1,0 +1,20 @@
+﻿textarea {
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size:11pt;
+}
+#btnFns {
+	margin:1% 0 1% 0;
+	display:inline-block;
+}
+#fns_submit {
+	margin-top:1%;
+	margin-bottom:2%;
+}
+#form_fns {
+	display:none;
+	width:100%;
+}
+.error_msg {
+	color:#FF5050;
+	font-size:12pt;
+}
